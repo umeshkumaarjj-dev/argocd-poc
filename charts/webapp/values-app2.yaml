@@ -1,0 +1,7 @@
+appName: app2
+replicaCount: 1
+image:
+  repository: public.ecr.aws/docker/library/httpd
+  tag: "2.4"
+service:
+  type: LoadBalancer
