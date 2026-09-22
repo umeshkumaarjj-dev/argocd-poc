@@ -1,5 +1,5 @@
 appName: app1
-replicaCount: 2
+replicaCount: 3
 image:
   repository: public.ecr.aws/nginx/nginx
   tag: stable
